@@ -10,8 +10,8 @@ const app = new koa();
 app.use(bodyParser());
 
 app.use(async function(ctx, next) {
-    const windowTime = 10 * 60;
-    const signKeys = [
+    const windowTime = 10 * 60;//签名有效的窗口时间
+    const signKeys = [//允许使用的签名秘钥
         'aaa',
         'bbb',
     ];
