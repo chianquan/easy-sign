@@ -1,0 +1,21 @@
+{
+    "name": "easy-sign",
+    "version": "0.0.1",
+    "description": "easy sign demo.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node $NODE_DEBUG_OPTION index.js"
+    },
+    "keywords": [
+        "request",
+        "sign"
+    ],
+    "author": "chianquan",
+    "license": "MIT",
+    "dependencies": {
+        "koa": "^2.5.0",
+        "koa-bodyparser": "^4.2.0",
+        "md5": "^2.2.1"
+    }
+}
